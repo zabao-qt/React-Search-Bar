@@ -9,9 +9,6 @@ function App() {
 
   return (
     <div className='App'>
-      <div className='logo'>
-      <img src={logo} alt='logo'/>
-      </div>
       <div className='search-bar-container'>
         <SearchBar setResults={setResults}/>
         <SearchResultsList results={results} />
