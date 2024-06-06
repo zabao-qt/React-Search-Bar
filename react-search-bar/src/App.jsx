@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import logo from './geekup.png';
 import { SearchBar } from './components/SearchBar';
 import { SearchResultsList } from "./components/SearchResultsList";
 
